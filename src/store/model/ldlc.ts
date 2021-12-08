@@ -27,13 +27,13 @@ export const Ldlc: Store = {
       brand: 'evga',
       model: 'xc3 ultra',
       series: '3080',
-      url: 'https://www.ldlc.com/fr-be/fiche/PB00369303.html',
+      url: 'https://www.ldlc.com/fr-be/fiche/PB00448867.html',
     },
     {
       brand: 'evga',
       model: 'ftw3 ultra',
       series: '3080',
-      url: 'https://www.ldlc.com/fr-be/fiche/PB00369299.html',
+      url: 'https://www.ldlc.com/fr-be/fiche/PB00454427.html',
     },
     {
       brand: 'msi',
@@ -45,7 +45,7 @@ export const Ldlc: Store = {
       brand: 'gigabyte',
       model: 'gaming oc',
       series: '3080',
-      url: 'https://www.ldlc.com/fr-be/fiche/PB00369299.html',
+      url: 'https://www.ldlc.com/fr-be/fiche/PB00450448.html',
     },
     {
       brand: 'gigabyte',
@@ -63,7 +63,7 @@ export const Ldlc: Store = {
       brand: 'inno3d',
       model: 'twin x2',
       series: '3080',
-      url: 'https://www.ldlc.com/fr-be/fiche/PB00368690.html',
+      url: 'https://www.ldlc.com/fr-be/fiche/PB00442658.html',
     },
     {
       brand: 'palit',
@@ -93,7 +93,7 @@ export const Ldlc: Store = {
       brand: 'kfa2',
       model: 'sg',
       series: '3080',
-      url: 'https://www.ldlc.com/fr-be/fiche/PB00396037.html',
+      url: 'https://www.ldlc.com/fr-be/fiche/PB00454442.html',
     },
     {
       brand: 'zotac',
@@ -112,6 +112,12 @@ export const Ldlc: Store = {
       model: 'ventus 2x oc',
       series: '3080',
       url: 'https://www.ldlc.com/fr-be/fiche/PB00368506.html',
+    },
+    {
+      brand: 'msi',
+      model: 'ventus 3x oc',
+      series: '3080',
+      url: 'https://www.ldlc.com/fr-be/fiche/PB00460569.html',
     },
     {
       brand: 'gigabyte',
@@ -147,7 +153,7 @@ export const Ldlc: Store = {
       brand: 'inno3d',
       model: 'ichill x3',
       series: '3080',
-      url: 'https://www.ldlc.com/fr-be/fiche/PB00368691.html',
+      url: 'https://www.ldlc.com/fr-be/fiche/PB00445445.html',
     },
     {
       brand: 'gainward',
@@ -159,7 +165,7 @@ export const Ldlc: Store = {
       brand: 'evga',
       model: 'xc3',
       series: '3080',
-      url: 'https://www.ldlc.com/fr-be/fiche/PB00369268.html',
+      url: 'https://www.ldlc.com/fr-be/fiche/PB00455248.html',
     },
     {
       brand: 'inno3d',
@@ -171,13 +177,7 @@ export const Ldlc: Store = {
       brand: 'evga',
       model: 'ftw3 ultra hybrid',
       series: '3080',
-      url: 'https://www.ldlc.com/fr-be/fiche/PB00398046.html',
-    },
-    {
-      brand: 'kfa2',
-      model: 'sg',
-      series: '3080',
-      url: 'https://www.ldlc.com/fr-be/fiche/PB00368931.html',
+      url: 'https://www.ldlc.com/fr-be/fiche/PB00473493.html',
     },
     {
       brand: 'palit',
@@ -219,7 +219,7 @@ export const Ldlc: Store = {
       brand: 'zotac',
       model: 'trinity',
       series: '3080',
-      url: 'https://www.ldlc.com/fr-be/fiche/PB00368579.html',
+      url: 'https://www.ldlc.com/fr-be/fiche/PB00455313.html',
     },
     {
       brand: 'zotac',
