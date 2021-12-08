@@ -755,12 +755,16 @@ const AmazonEULinks: Link[] = [
     }
 ];
 
-export let AmazonLinks = function (language: string): Link[] {
-    console.log("Entered AmazonLinks: " + language);
+export let AmazonLinks = function (language: string, marketplace: boolean): Link[] {
+    let replace = '.' + language + '/dp/';
+    if (marketplace) {
+        replace = '.' + language + '/gp/offer-listing/';
+    }
+
     return AmazonEULinks.map((link) => {
         return {
             ...link,
-            url: link.url.replace('.lang/', '.' + language + '/')
+            url: link.url.replace('.lang/dp/', replace)
         };
     });
 };

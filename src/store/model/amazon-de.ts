@@ -32,6 +32,6 @@ export const AmazonDe: Store = {
       },
     ],
   },
-  links: AmazonLinks('de'),
+  links: AmazonLinks('de', false),
   name: 'amazon-de',
 };

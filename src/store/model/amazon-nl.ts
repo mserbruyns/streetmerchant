@@ -38,6 +38,6 @@ export const AmazonNl: Store = {
       },
     ],
   },
-  links: AmazonLinks('nl'),
+  links: AmazonLinks('nl', false),
   name: 'amazon-nl',
 };

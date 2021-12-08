@@ -29,6 +29,6 @@ export const AmazonFr: Store = {
       },
     ],
   },
-  links: AmazonLinks('fr'),
+  links: AmazonLinks('fr', false),
   name: 'amazon-fr',
 };

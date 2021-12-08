@@ -1,4 +1,5 @@
 import {Store} from './store';
+import {AmazonLinks} from "./helpers/amazon-eu-links";
 
 export const AmazonDeWarehouse: Store = {
   backoffStatusCodes: [403, 429, 503],
@@ -33,37 +34,6 @@ export const AmazonDeWarehouse: Store = {
       },
     ],
   },
-  links: [
-    {
-      brand: 'test:brand',
-      model: 'test:model',
-      series: 'test:series',
-      url: 'https://www.amazon.de/gp/offer-listing/B07PW9VBK5',
-    },
-    {
-      brand: 'sony',
-      model: 'ps5 console',
-      series: 'sonyps5c',
-      url: 'https://www.amazon.de/gp/offer-listing/B08H93ZRK9',
-    },
-    {
-      brand: 'sony',
-      model: 'ps5 digital',
-      series: 'sonyps5de',
-      url: 'https://www.amazon.de/gp/offer-listing/B08H98GVK8',
-    },
-    {
-      brand: 'microsoft',
-      model: 'xbox series s',
-      series: 'xboxss',
-      url: 'https://www.amazon.de/gp/offer-listing/B087VM5XC6',
-    },
-    {
-      brand: 'microsoft',
-      model: 'xbox series x',
-      series: 'xboxsx',
-      url: 'https://www.amazon.de/gp/offer-listing/B08H93ZRLL',
-    },
-  ],
+  links: AmazonLinks('de', true),
   name: 'amazon-de-warehouse',
 };
