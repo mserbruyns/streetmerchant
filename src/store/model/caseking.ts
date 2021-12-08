@@ -9,7 +9,7 @@ export const Caseking: Store = {
       text: ['lagernd', 'im zulauf', 'ab'],
     },
     maxPrice: {
-      container: '#buybox .article_details_price',
+      container: '#buybox .article_details_bottom strong',
       euroFormat: true,
     },
     outOfStock: {

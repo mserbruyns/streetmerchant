@@ -8,7 +8,7 @@ export const Galaxus: Store = {
       text: ['In den Warenkorb'],
     },
     maxPrice: {
-      container: '.productDetail .Z1c8',
+      container: '.productDetail > header + div span strong',
       euroFormat: true,
     },
     outOfStock: [
