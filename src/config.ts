@@ -255,6 +255,16 @@ const notifications = {
       xboxsx: envOrArray(process.env.DISCORD_NOTIFY_GROUP_XBOXSX),
     },
     webhooks: envOrArray(process.env.DISCORD_WEB_HOOK),
+    webhooksSeries: {
+      '3060ti': envOrArray(process.env.DISCORD_WEB_HOOK_3060TI),
+      3070: envOrArray(process.env.DISCORD_WEB_HOOK_3070),
+      '3070ti': envOrArray(process.env.DISCORD_WEB_HOOK_3070TI),
+      3080: envOrArray(process.env.DISCORD_WEB_HOOK_3080),
+      '3080ti': envOrArray(process.env.DISCORD_WEB_HOOK_3080TI),
+      3090: envOrArray(process.env.DISCORD_WEB_HOOK_3090),
+      rx6800xt: envOrArray(process.env.DISCORD_WEB_HOOK_RX6800XT),
+      rx6900xt: envOrArray(process.env.DISCORD_WEB_HOOK_RX6900XT),
+    }
   },
   email: {
     password: envOrString(process.env.EMAIL_PASSWORD),
