@@ -36,6 +36,14 @@ const AmazonEULinks: Link[] = [
     {
         brand: 'asus',
         cartUrl:
+            'https://www.amazon.lang/gp/aws/cart/add.html?ASIN.1=B099991CDN&Quantity.1=1',
+        model: 'tuf',
+        series: '3080',
+        url: 'https://www.amazon.lang/dp/B099991CDN',
+    },
+    {
+        brand: 'asus',
+        cartUrl:
             'https://www.amazon.lang/gp/aws/cart/add.html?ASIN.1=B08HN4DSTC&Quantity.1=1',
         model: 'tuf oc',
         series: '3080',
@@ -384,6 +392,14 @@ const AmazonEULinks: Link[] = [
         model: 'gaming oc',
         series: '3070',
         url: 'https://www.amazon.lang/dp/B08KHL21CV',
+    },
+    {
+        brand: 'gigabyte',
+        cartUrl:
+            'https://www.amazon.lang/gp/aws/cart/add.html?ASIN.1=B096Y2NLV4&Quantity.1=1',
+        model: 'gaming oc',
+        series: '3070',
+        url: 'https://www.amazon.lang/dp/B096Y2NLV4',
     },
     {
         brand: 'gigabyte',
@@ -764,7 +780,8 @@ export let AmazonLinks = function (language: string, marketplace: boolean): Link
     return AmazonEULinks.map((link) => {
         return {
             ...link,
-            url: link.url.replace('.lang/dp/', replace)
+            url: link.url.replace('.lang/dp/', replace),
+            cartUrl: link.cartUrl?.replace('.lang/', '.' + language + '/')
         };
     });
 };
