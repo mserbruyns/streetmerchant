@@ -230,7 +230,7 @@ async function lookup(browser: Browser, store: Store) {
 
     await page.setRequestInterception(true);
     page.on('request', async request => {
-      if (await handleLowBandwidth(request)) {
+      if (!store.name.includes('ldlc') && (await handleLowBandwidth(request))) {
         return;
       }
 

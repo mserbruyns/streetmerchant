@@ -169,6 +169,7 @@ import chalk from 'chalk';
 import {UltimaInformatica} from './utlimainformatica';
 import {XtremMedia} from './xtremmedia';
 import {MicrosoftCA} from './microsoft-ca';
+import {LdlcPro} from './ldlc-pro';
 
 export const storeList = new Map([
   [AComPC.name, AComPC],
@@ -338,6 +339,7 @@ export const storeList = new Map([
   [Xbox.name, Xbox],
   [XtremMedia.name, XtremMedia],
   [Zotac.name, Zotac],
+  [LdlcPro.name, LdlcPro],
 ]);
 
 const brands = new Set();
